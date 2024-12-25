@@ -401,6 +401,7 @@ hr {
 /* Experience Section */
 .experience-section {
   width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -415,6 +416,7 @@ hr {
 .exp-row-1 {
   padding: 50px 50px 0 50px;
   width: 100%;
+  height: auto;
   display: flex;
 }
 
@@ -436,14 +438,14 @@ hr {
 
 .line {
   width: 3px;
-  height: 350px;
+  height: auto;
   background-color: var(--orange-color);
   margin-top: 5px;
 }
 
 .exp-1 {
   width: 60%;
-  height: 350px;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
