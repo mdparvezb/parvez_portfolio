@@ -13,11 +13,12 @@
   /* Navbar */
   head {
     width: 100%;
-    height: 70vh;
+    height: auto;
   }
 
   .nav-bar {
     width: 100%;
+    height: auto;
     margin-bottom: 0;
     z-index: 1;
   }
@@ -47,7 +48,7 @@
   /* Hero Section */
   .hero-section {
     width: 100%;
-    height: 60vh;
+    height: auto;
   }
 
   .hero-section-right img {
@@ -91,16 +92,18 @@
 
   /* Experience */
   .exp-row-1 {
+    height: 500px;
     padding: 20px 50px 0 20px;
   }
 
   .exp-row-2 {
+    height: 400px;
     padding: 0 50px 0 20px;
   }
 
   .exp-1 {
     width: 100%;
-    height: auto;
+    height: 500px;
     padding: 0 10px;
   }
 
@@ -179,7 +182,7 @@
   /* Navbar */
   head {
     width: 100%;
-    height: 60vh;
+    height: auto;
     justify-content: flex-start;
   }
 
@@ -220,12 +223,12 @@
   /* Hero Section */
   .hero-section {
     width: 100%;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 60px;
   }
 
   .hero-section-right,
@@ -285,6 +288,12 @@
     font-size: 14px;
   }
 
+  .about-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
   .about-right {
     display: flex;
     justify-content: center;
@@ -325,10 +334,12 @@
   /* Experience */
   .exp-row-1 {
     width: 100%;
+    height: auto;
     padding: 20px 20px 0 20px;
   }
 
   .exp-row-2 {
+    height: auto;
     padding: 0 20px 0 20px;
   }
 
@@ -363,7 +374,7 @@
 
   .exp-1 {
     width: 100%;
-    height: auto;
+    height: 600px;
     display: flex;
     flex-direction: column;
     gap: 10px;
