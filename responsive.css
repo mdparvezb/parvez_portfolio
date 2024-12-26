@@ -343,12 +343,6 @@
     padding: 0 20px 0 20px;
   }
 
-  /* .exp-1 {
-    width: 100%;
-    height: auto;
-    padding: 0 10px;
-  } */
-
   .exp-row-3 {
     padding: 0 19px;
   }
@@ -364,7 +358,6 @@
 
   .line {
     height: 600px;
-    background-color: #a913ff;
     margin-top: 5px;
   }
 
